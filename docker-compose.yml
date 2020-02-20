@@ -1,0 +1,21 @@
+version: "3.7"
+
+services:
+  freshshop:
+    image: msaaddevsinc/freshshop
+    command: /bin/sh -c "rm -f /tmp/pids/server.pid && bundle exec rails server -b 0.0.0.0"
+    ports:
+      - '3000:3000'
+    depends_on:
+      - mysql
+    links:
+      - mysql
+  mysql:
+    image: mysql:5.7
+    environment:
+      MYSQL_ROOT_PASSWORD: password
+      MYSQL_DATABASE: freshshop_db
+      MYSQL_USER: admin
+      MYSQL_PASSWORD: admin
+    ports:
+      - "3307:3306"
