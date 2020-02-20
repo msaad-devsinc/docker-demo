@@ -1,1 +1,1 @@
-# docker-demo
+# Instruction to step up FreshShop
