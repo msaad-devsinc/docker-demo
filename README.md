@@ -13,6 +13,7 @@
 	 >git clone https://github.com/msaad-devsinc/docker-demo.git
 
 ## 3. Setup the App
+	>cd docker-demo
 	>docker-demo$ docker-compose up
 	
 ## 4. App is running :)
