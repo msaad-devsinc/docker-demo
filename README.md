@@ -19,3 +19,9 @@
 ## 4. App is running :)
 
  - [Running at localhost:3000](http://localhost:3000)
+
+
+
+## how to exit the app ?
+# simply run :
+> docker-compose down
