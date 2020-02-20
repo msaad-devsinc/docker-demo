@@ -1,5 +1,5 @@
 
-# Instruction to setup FreshShop ( Dockerized APP )
+# Instructions to setup FreshShop ( Dockerized APP )
 
  ## 1. Download/Install the Docker
  
