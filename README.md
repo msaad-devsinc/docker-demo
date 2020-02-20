@@ -22,7 +22,7 @@
 
 
 
-# FAQ ?
-### How to exit the app ?
-### simply run :
+# FAQs
+### Q1. How to exit the app ?
+### Ans. simply run :
 > docker-compose down
